@@ -1,0 +1,20 @@
+from MukeshRobot import pbot as mukesh # This is bot's client
+from pyrogram import filters # pyrogram filters
+
+
+
+#ғᴏʀ /help ᴍᴇɴᴜ
+mod_name = "mukeshrobot.valorant"
+help = "click one help to find what is this"
+
+
+import requests as req,os
+
+os.remove('./image.png')
+resp = req.post("https://api.qewertyy.me/imagine",json={"prompt":"loki from norse mythology","auth_key":"nubsss"})
+print(resp.status_code)
+
+with open('./image.png', 'wb') as f:
+        f.write(resp.content)
+
+  await message.reply_photo(open('./image.png','rb'))
