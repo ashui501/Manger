@@ -89,13 +89,13 @@ I ᴀᴍ ʙᴀsᴇᴅ ᴏɴ ᴀɴ ᴀɴɪᴍᴇ ᴄᴀʟʟᴇᴅ Nᴀʀᴜᴛᴏ
 
 buttons = [
     [
-        InlineKeyboardButton(text="😀𝗔𝗯𝗼𝘂𝘁😀", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💌𝗠𝗮𝘀𝘁𝗲𝗿📩", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton( text="🏡𝗩𝗶𝗹𝗹𝗮𝗴𝗲🏡 ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝗔𝗯𝗼𝘂𝘁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="𝗠𝗮𝘀𝘁𝗲𝗿", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton( text="CLAN", url=f"https://t.me/{SUPPORT_CHAT}"),
      ],
     [
         InlineKeyboardButton(
-            text="𝗦𝘂𝗺𝗺𝗼𝗻 𝗺𝗲 🥷",
+            text="𝗦𝘂𝗺𝗺𝗼𝗻 𝗺𝗲 ",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
@@ -1065,7 +1065,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ 🇸‌🇵‌🇪‌🇪‌🇩‌🇾‌™️ ✘  
+**ᴍᴀᴅᴇ ᴡɪᴛʜ AKIRA✘  
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
